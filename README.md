@@ -60,7 +60,7 @@ También tenemos que registrar un paquete al cliente, el paquete nos sirve para 
 
 Para ambos endpoints se manda el XML en formato JSON sin SELLAR de la siguiente manera:
 ```
-{
+
     {
         "cfdi:Comprobante":{
             "@version":"3.2",
@@ -119,5 +119,5 @@ Para ambos endpoints se manda el XML en formato JSON sin SELLAR de la siguiente 
             }
         }
     }
-}
+
 ```
