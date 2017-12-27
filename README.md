@@ -56,7 +56,7 @@ También tenemos que registrar un paquete al cliente, el paquete nos sirve para 
  Para timbrar tenemos 2 endpoints :
 
 - Timbrado Real : `POST /timbrar/json`
-- Timbrado Prueba: `POST /timbrar/json`
+- Timbrado Prueba: `POST /timbrar/prueba`
 
 Para ambos endpoints se manda el XML en formato JSON sin SELLAR de la siguiente manera:
 ```
