@@ -122,15 +122,16 @@ Para ambos endpoints se manda el XML en formato JSON sin SELLAR de la siguiente 
         }
     }
 
+```
+
 ## Timbrado Directo (Certificados Sellados) 
 
 Para timbrar un certificado directo se utlizará el endpoint: `api.cfdimax.com/cfdi33/timbrado`
 Al cual se le mandará una estructura JSON de la siguiente manera
-
+```json
     {
       "cfdi" : "(String completa del XML Certificado)"
     }
-
-Por ahora este servicio es privado y no cuenta con Autenticación alguna, con el fin de acelerar las pruebas
 ```
+Por ahora este servicio es privado y no cuenta con Autenticación alguna, con el fin de acelerar las pruebas
 
