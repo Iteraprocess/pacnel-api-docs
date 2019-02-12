@@ -54,6 +54,8 @@ También tenemos que registrar un paquete al cliente, el paquete nos sirve para 
 
 ## Timbrado 
  Para timbrar tenemos 2 endpoints :
+ 
+ 
 
 - Timbrado Real : `POST /timbrar/json`
 - Timbrado Prueba: `POST /timbrar/prueba`
@@ -120,7 +122,7 @@ Para ambos endpoints se manda el XML en formato JSON sin SELLAR de la siguiente 
         }
     }
 
-## Timbrado Directo (Certificados Sellados)
+## Timbrado Directo (Certificados Sellados) 
 
 Para timbrar un certificado directo se utlizará el endpoint: `api.cfdimax.com/cfdi33/timbrado`
 Al cual se le mandará una estructura JSON de la siguiente manera
@@ -131,3 +133,4 @@ Al cual se le mandará una estructura JSON de la siguiente manera
 
 Por ahora este servicio es privado y no cuenta con Autenticación alguna, con el fin de acelerar las pruebas
 ```
+
