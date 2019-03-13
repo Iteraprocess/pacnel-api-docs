@@ -135,3 +135,12 @@ Al cual se le mandará una estructura JSON de la siguiente manera mediante POST
 ```
 Por ahora este servicio es privado y no cuenta con Autenticación alguna, con el fin de acelerar las pruebas
 
+
+Por otra parte puede enviarse y recbirse XML codificados en base 64 de la siguiente forma:
+
+```json
+    {
+      "cfdi" : {"base64": "(String completa del XML Certificado en base 64)"}
+    }
+```
+
